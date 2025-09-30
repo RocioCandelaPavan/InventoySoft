@@ -1,0 +1,8 @@
+"# InventoySoft" 
+"" 
+"Aplicaci¢n de inventario desarrollada en Python/Flask." 
+"" 
+"## Instrucciones de instalaci¢n" 
+"1. Clonar el repositorio" 
+"2. Instalar dependencias: pip install -r requirements.txt" 
+"3. Ejecutar con: python app.py" 
