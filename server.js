@@ -11,8 +11,21 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static('public'));
 
-// Initialize SQLite database
-const db = new sqlite3.Database(':memory:');
+// Initialize mysql database
+const mysql = require('mysql2');
+
+const db = mysql.createConnection({
+  host: 'localhost',
+  user: 'tu_usuario',
+  password: 'tu_password',
+  database: 'nombre_base'
+});
+
+db.connect(err => {
+  if (err) throw err;
+  console.log('Conectado a MySQL');
+});
+
 
 // Create tables
 db.serialize(() => {
