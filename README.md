@@ -1,8 +1,5 @@
-"# InventoySoft" 
-"" 
-"Aplicaci¢n de inventario desarrollada en Python/Flask." 
-"" 
-"## Instrucciones de instalaci¢n" 
-"1. Clonar el repositorio" 
-"2. Instalar dependencias: pip install -r requirements.txt" 
-"3. Ejecutar con: python app.py" 
+Este es mi repo.
+1- Clone el repositorio: https://github.com/josecastineiras/inventory
+2- Cree el .readme file. donde explico esto
+3- Cambie el puerto de ejecuci√≥n a 80
+4- Cambie la base de datos de SQLite a MySQL o PostgreSQL.
